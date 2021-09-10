@@ -1,0 +1,30 @@
+.profile-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.5rem;
+  row-gap: 4rem;
+
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  padding: 0 25%;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  .user-info {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 2.5rem;
+      border-radius: 2rem;
+      margin-right: 1rem;
+    }
+  }
+}

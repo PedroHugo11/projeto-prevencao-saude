@@ -1,0 +1,34 @@
+.radio-input {
+  width: 100%;
+  margin-right: 10px;
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .input-container {
+    display: flex;
+
+    .input-item {
+      width: 100%;
+      display: flex;
+
+      justify-content: flex-start;
+      align-items: center;
+
+      label {
+        font-size: 1.2rem;
+      }
+
+      input {
+        width: 100%;
+        height: 1.7rem;
+        padding: 1rem;
+        color: black;
+      }
+    }
+  }
+}
